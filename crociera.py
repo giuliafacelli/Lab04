@@ -4,8 +4,8 @@ class Crociera:
     def __init__(self, nome):
         """Inizializza gli attributi e le strutture dati"""
         self._nome = nome
-        self.cabine = {}  # {codice_cabina: oggetto_cabina}
-        self.passeggeri = {}  # {codice_passeggero: oggetto_passeggero}
+        self.cabine = {}
+        self.passeggeri = {}
 
     @property
     def nome(self):
